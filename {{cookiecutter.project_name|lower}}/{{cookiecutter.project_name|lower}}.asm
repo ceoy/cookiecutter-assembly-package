@@ -1,6 +1,6 @@
 ; Author: {{cookiecutter.full_name}}
 ; Email: {{cookiecutter.email}}
-; Description: calls a prozedure from another file
+; Description: calls a procedure from another file
 section .text
     global _start ; required for the entry point
     

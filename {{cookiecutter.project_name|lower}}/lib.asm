@@ -9,8 +9,8 @@ global calcSum
 ; in:   ah=string to display
 ; out:  al=result
 calcSum:
-        push rbx    ; push rbx
-        push rax    ; push rax
+    push rbx    ; push rbx
+    push rax    ; push rax
     xor al, al  ; 00000000 al
 .next:           ; next label
     add al, ah  ; add ah to al 
